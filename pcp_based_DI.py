@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load data
-data = pd.read_csv(r"C:\Users\Deep_\Downloads\Kaggle\Drought_Indices\Data\prcphq.046037.month.txt", 
+data = pd.read_csv(r"\Drought_Indices\Data\prcphq.046037.month.txt", 
                    sep=r"\s+", skiprows=1, usecols=[1, 2], parse_dates=True, index_col=0, names=["Date", "Rain"])
 
 data['Rain_6'] = data['Rain'].rolling(6).sum()  # 6-month cumulative rainfall
