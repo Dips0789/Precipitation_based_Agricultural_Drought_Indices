@@ -17,6 +17,7 @@
 
 6. **Modified China-Z Index (MCZI)**
    - **Formula:** MCZI = (6.0 / cs) × ((cs / 2.0) × zsi + 1.0)^(1/3) - (6.0 / cs) + (cs / 6.0)
+   - Where cs is the cube of the standardized index.
 
 7. **Rainfall Anomaly Index (RAI)**
    - **Formula:** RAI = (P - P_avg) / P_avg
